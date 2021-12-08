@@ -1,0 +1,6 @@
+*.csv
+Armstrong_Korenaga_fast/*
+NGM_Flament/*
+.ipynb_checkpoints/*
+__pycache__
+Untitled.ipynb
