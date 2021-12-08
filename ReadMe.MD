@@ -1,4 +1,4 @@
-This is the repository of code to run the models in the phosphorus cycling papers^(1&2).
+This is the repository of code to run the models in the phosphorus cycling papers<sup>1,2</sup>. The repo is adapted from the original code by J. Krissansen-Totton and the original readme section is kept below.
 
 1. Hao, J., Knoll, A. H., Huang, F., Hazen, R. M., & Daniel, I. (2020). Cycling phosphorus on the Archean Earth: Part I. Continental weathering and riverine transport of phosphorus. Geochimica et Cosmochimica Acta, 273, 70-84.
 1. Hao, J., Knoll, A. H., Huang, F., Schieber, J., Hazen, R. M., & Daniel, I. (2020). Cycling phosphorus on the Archean Earth: Part II. Phosphorus limitation on primary production in Archean ecosystems. Geochimica et Cosmochimica Acta, 280, 360-377.
