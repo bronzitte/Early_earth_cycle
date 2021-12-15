@@ -18,12 +18,12 @@ global W, F_outgass, n, climp, tdep_weath, mod_sea, alt_frac, Mp_frac, CWF, carb
 # Options
 # Number of forward model calls in Monte Carlo calculations
 # 1000 provides approximation distrubitions, 10000 used in manuscript
-it_num = 20
+it_num = 1000
 
 # Parallelize on/off number
 # 0 - no parallelization (slow)
 # number of threads (e.g. 4, 6, 8, 10, 12)
-Parallelize = 10
+Parallelize = 30
 
 # Tdep carbon chemistry constants
 # 0 - carbon chemsitry assumes fixed temperature (faster, but slightly less accurate)

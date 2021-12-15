@@ -226,7 +226,7 @@ def system_of_equations(y, t0, W, F_outgass, n, climp, tdep_weath, mod_sea, alt_
     [EE_pH_o, EE_co3_o, EE_hco3_o, EE_co2aq_o, EE_ppCO2_o, EE_Ca_o, EE_omega_o,
      T_surface, buffer_T, F_diss, F_silic, Precip_ocean, Precip_pore, EE_omega_p,
      F_outg, carb_weath, EE_co3_p, EE_hco3_p, EE_co2aq_p, EE_pH_p, EE_ppCO2_p,
-     EE_Ca_p, EE_H_o, EE_H_p, T_surface_diff, F_outg, spread_value, T_pore_space, R_ratio]\
+     EE_Ca_p, EE_H_o, EE_H_p, T_surface_diff, F_outg, spread_value, T_pore_space, R_ratio,_]\
         = carbon_cycle([y[0], y[1], y[2], y[3]], t0, W, F_outgass, n, climp, tdep_weath,
                        mod_sea, alt_frac, Mp_frac, lfrac, carb_exp, sed_thick, F_carbw, CWF, deep_grad,
                        coef_for_diss, beta, n_out, mm, growth_timing, new_add_Ca, Ebas, f)
