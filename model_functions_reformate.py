@@ -324,11 +324,8 @@ def carbon_cycle(y, t0, W, F_outgass, n, climp, tdep_weath, mod_sea, alt_frac, M
         EE_Ca_p = Ca_p+0.5*(y[3]-ALK_p)+Ca_cofactor  # equation S17
 
         # Calculate biological modification of continental weathering using equation S7:
-        if t0 > 0.6*1e9:
-            biology_modifier = 0.25
-        else:
-            fb_EE = 1/(1-CWF)
-            biology_modifier = 1-1/(fb_EE+np.exp(-10*(t0-0.6e9)/1e9))
+        fb_EE = 1/(1-CWF)
+        biology_modifier = 1-1/(fb_EE+np.exp(-10*(t0-0.6e9)/1e9))
         # print("Type of fbio: ", type(biology_modifier))
         # biology_modifier=1.0
 

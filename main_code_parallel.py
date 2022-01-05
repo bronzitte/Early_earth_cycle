@@ -102,7 +102,8 @@ def try_run_forward(ii):
         # Modern continental carbonate weathering (mol C/yr)
         F_carbw = np.random.uniform(7e12, 14e12)
         # Biological enhancement of weathering (Archean value relative to modern)
-        CWF = np.random.uniform(0.1, 0.999)
+        # CWF changed in Jan 2022
+        CWF = 0.25
         # Gradient determining linear relationship between deep ocean temperatures and surface temperatures (see equation S20)
         deep_grad = np.random.uniform(0.8, 1.4)
         # Exponent determining pH-dependence of seafloor basalt dissolution and pore space pH (see equation S3)
