@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=P_cycle
-#SBATCH --time=3:00:00
+#SBATCH --time=0:30:00
 #SBATCH --mem=16GB
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=15

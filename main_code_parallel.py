@@ -46,7 +46,7 @@ np.save('options_array.npy', options_array)
 imbalance_array = []
 
 # fit the land growth function from local excel
-df = pd.read_excel('TM_age.xlsx')
+df = pd.read_excel('Flament_age.xlsx')
 f = interpolate.interp1d(df.iloc[:, 0], df.iloc[:, 1])
 
 # Run forward model once with arbitrary parameters to define size of array that will contain outputs
@@ -102,7 +102,9 @@ def try_run_forward(ii):
         # Modern continental carbonate weathering (mol C/yr)
         F_carbw = np.random.uniform(7e12, 14e12)
         # Biological enhancement of weathering (Archean value relative to modern)
-        CWF = np.random.uniform(0.1, 0.999)
+        ### CWF = 0.25
+        # CWF = np.random.uniform(0.1, 0.999)
+        CWF = 0.25
         # Gradient determining linear relationship between deep ocean temperatures and surface temperatures (see equation S20)
         deep_grad = np.random.uniform(0.8, 1.4)
         # Exponent determining pH-dependence of seafloor basalt dissolution and pore space pH (see equation S3)
